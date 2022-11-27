@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01DE990C49CD483C8FB34240 /* Pods_MutriksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C10783121365E1909347C77 /* Pods_MutriksTests.framework */; };
+		4F09E4582931166600D18638 /* DeterminanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09E4572931166600D18638 /* DeterminanViewController.swift */; };
+		4F09E45A2931167C00D18638 /* InversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09E4592931167C00D18638 /* InversViewController.swift */; };
+		4F09E45C2931169300D18638 /* TransposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09E45B2931169300D18638 /* TransposeViewController.swift */; };
+		4F09E45E2931361500D18638 /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09E45D2931361500D18638 /* PickerField.swift */; };
+		4F256FC529322B9300CA9641 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F256FC429322B9300CA9641 /* ResultViewController.swift */; };
+		4F9863BD293335C900CED59F /* DeterminanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9863BC293335C900CED59F /* DeterminanResultViewController.swift */; };
+		4F9863BF293373E600CED59F /* InversResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9863BE293373E600CED59F /* InversResultViewController.swift */; };
+		4F9863C1293397B300CED59F /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9863C0293397B300CED59F /* AboutAppViewController.swift */; };
+		4F9863C32933A6C800CED59F /* AboutMatriksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9863C22933A6C800CED59F /* AboutMatriksViewController.swift */; };
+		4F9863C52933C19E00CED59F /* MATRIKS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4F9863C42933C19D00CED59F /* MATRIKS.pdf */; };
 		4FAEEACC29221B8A00978534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEEACB29221B8A00978534 /* AppDelegate.swift */; };
 		4FAEEACE29221B8A00978534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEEACD29221B8A00978534 /* SceneDelegate.swift */; };
 		4FAEEAD029221B8A00978534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEEACF29221B8A00978534 /* ViewController.swift */; };
@@ -18,7 +29,9 @@
 		4FAEEAEF29221B8F00978534 /* MutriksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEEAEE29221B8F00978534 /* MutriksUITestsLaunchTests.swift */; };
 		4FE9B3D32928B0A2006D95CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9B3D22928B0A2006D95CF /* HomeViewController.swift */; };
 		4FE9B3D62928B2C1006D95CF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9B3D52928B2C1006D95CF /* Extension.swift */; };
-		4FE9B3D82928B8F1006D95CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9B3D72928B8F1006D95CF /* SecondViewController.swift */; };
+		4FE9B3D82928B8F1006D95CF /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9B3D72928B8F1006D95CF /* OperationViewController.swift */; };
+		5C1DF3FE2FE50331C58D5817 /* Pods_Mutriks_MutriksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1EB723B7CA6AA1E0CC41E3 /* Pods_Mutriks_MutriksUITests.framework */; };
+		B24F299F2FDF4CEF0B161825 /* Pods_Mutriks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65894D3AF3FD980D1A038B87 /* Pods_Mutriks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2244B769B71E038EA10CFE59 /* Pods-Mutriks-MutriksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutriks-MutriksUITests.release.xcconfig"; path = "Target Support Files/Pods-Mutriks-MutriksUITests/Pods-Mutriks-MutriksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F09E4572931166600D18638 /* DeterminanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminanViewController.swift; sourceTree = "<group>"; };
+		4F09E4592931167C00D18638 /* InversViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InversViewController.swift; sourceTree = "<group>"; };
+		4F09E45B2931169300D18638 /* TransposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeViewController.swift; sourceTree = "<group>"; };
+		4F09E45D2931361500D18638 /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
+		4F256FC429322B9300CA9641 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		4F9863BC293335C900CED59F /* DeterminanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminanResultViewController.swift; sourceTree = "<group>"; };
+		4F9863BE293373E600CED59F /* InversResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InversResultViewController.swift; sourceTree = "<group>"; };
+		4F9863C0293397B300CED59F /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		4F9863C22933A6C800CED59F /* AboutMatriksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMatriksViewController.swift; sourceTree = "<group>"; };
+		4F9863C42933C19D00CED59F /* MATRIKS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MATRIKS.pdf; path = ../../../../../Downloads/MATRIKS.pdf; sourceTree = "<group>"; };
 		4FAEEAC829221B8A00978534 /* Mutriks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mutriks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAEEACB29221B8A00978534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAEEACD29221B8A00978534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +78,15 @@
 		4FAEEAEE29221B8F00978534 /* MutriksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutriksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FE9B3D22928B0A2006D95CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4FE9B3D52928B2C1006D95CF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		4FE9B3D72928B8F1006D95CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4FE9B3D72928B8F1006D95CF /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		5AB50D9517301CC7B64579DD /* Pods-Mutriks-MutriksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutriks-MutriksUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mutriks-MutriksUITests/Pods-Mutriks-MutriksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65894D3AF3FD980D1A038B87 /* Pods_Mutriks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mutriks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E7D46C58EFCD717910296A /* Pods-MutriksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutriksTests.release.xcconfig"; path = "Target Support Files/Pods-MutriksTests/Pods-MutriksTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C10783121365E1909347C77 /* Pods_MutriksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MutriksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5490E072B1DB0B01409DA3 /* Pods-MutriksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutriksTests.debug.xcconfig"; path = "Target Support Files/Pods-MutriksTests/Pods-MutriksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1EB723B7CA6AA1E0CC41E3 /* Pods_Mutriks_MutriksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mutriks_MutriksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF31DB65F291E7052462F30A /* Pods-Mutriks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutriks.release.xcconfig"; path = "Target Support Files/Pods-Mutriks/Pods-Mutriks.release.xcconfig"; sourceTree = "<group>"; };
+		EE9B47BD2BC39F650BD35F71 /* Pods-Mutriks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mutriks.debug.xcconfig"; path = "Target Support Files/Pods-Mutriks/Pods-Mutriks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24F299F2FDF4CEF0B161825 /* Pods_Mutriks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DE990C49CD483C8FB34240 /* Pods_MutriksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1DF3FE2FE50331C58D5817 /* Pods_Mutriks_MutriksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +124,8 @@
 				4FAEEAE129221B8F00978534 /* MutriksTests */,
 				4FAEEAEB29221B8F00978534 /* MutriksUITests */,
 				4FAEEAC929221B8A00978534 /* Products */,
+				D8F22A01792B14EE2F738BC0 /* Pods */,
+				DEFEBA49714721D4AE4C9BAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +148,7 @@
 				4FAEEACD29221B8A00978534 /* SceneDelegate.swift */,
 				4FAEEAD129221B8A00978534 /* Main.storyboard */,
 				4FAEEAD429221B8F00978534 /* Assets.xcassets */,
+				4F9863C42933C19D00CED59F /* MATRIKS.pdf */,
 				4FAEEAD629221B8F00978534 /* LaunchScreen.storyboard */,
 				4FAEEAD929221B8F00978534 /* Info.plist */,
 			);
@@ -139,7 +177,15 @@
 			children = (
 				4FAEEACF29221B8A00978534 /* ViewController.swift */,
 				4FE9B3D22928B0A2006D95CF /* HomeViewController.swift */,
-				4FE9B3D72928B8F1006D95CF /* SecondViewController.swift */,
+				4FE9B3D72928B8F1006D95CF /* OperationViewController.swift */,
+				4F09E4572931166600D18638 /* DeterminanViewController.swift */,
+				4F09E4592931167C00D18638 /* InversViewController.swift */,
+				4F09E45B2931169300D18638 /* TransposeViewController.swift */,
+				4F256FC429322B9300CA9641 /* ResultViewController.swift */,
+				4F9863BC293335C900CED59F /* DeterminanResultViewController.swift */,
+				4F9863BE293373E600CED59F /* InversResultViewController.swift */,
+				4F9863C0293397B300CED59F /* AboutAppViewController.swift */,
+				4F9863C22933A6C800CED59F /* AboutMatriksViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -148,8 +194,32 @@
 			isa = PBXGroup;
 			children = (
 				4FE9B3D52928B2C1006D95CF /* Extension.swift */,
+				4F09E45D2931361500D18638 /* PickerField.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		D8F22A01792B14EE2F738BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B47BD2BC39F650BD35F71 /* Pods-Mutriks.debug.xcconfig */,
+				CF31DB65F291E7052462F30A /* Pods-Mutriks.release.xcconfig */,
+				5AB50D9517301CC7B64579DD /* Pods-Mutriks-MutriksUITests.debug.xcconfig */,
+				2244B769B71E038EA10CFE59 /* Pods-Mutriks-MutriksUITests.release.xcconfig */,
+				7C5490E072B1DB0B01409DA3 /* Pods-MutriksTests.debug.xcconfig */,
+				67E7D46C58EFCD717910296A /* Pods-MutriksTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEFEBA49714721D4AE4C9BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65894D3AF3FD980D1A038B87 /* Pods_Mutriks.framework */,
+				9A1EB723B7CA6AA1E0CC41E3 /* Pods_Mutriks_MutriksUITests.framework */,
+				6C10783121365E1909347C77 /* Pods_MutriksTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FAEEAF229221B8F00978534 /* Build configuration list for PBXNativeTarget "Mutriks" */;
 			buildPhases = (
+				97970E805612B4921671607A /* [CP] Check Pods Manifest.lock */,
 				4FAEEAC429221B8A00978534 /* Sources */,
 				4FAEEAC529221B8A00978534 /* Frameworks */,
 				4FAEEAC629221B8A00978534 /* Resources */,
@@ -176,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FAEEAF529221B8F00978534 /* Build configuration list for PBXNativeTarget "MutriksTests" */;
 			buildPhases = (
+				D9F454129D545B0ABF9E4D17 /* [CP] Check Pods Manifest.lock */,
 				4FAEEADA29221B8F00978534 /* Sources */,
 				4FAEEADB29221B8F00978534 /* Frameworks */,
 				4FAEEADC29221B8F00978534 /* Resources */,
@@ -194,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FAEEAF829221B8F00978534 /* Build configuration list for PBXNativeTarget "MutriksUITests" */;
 			buildPhases = (
+				668E11FDD4592802C51AB790 /* [CP] Check Pods Manifest.lock */,
 				4FAEEAE429221B8F00978534 /* Sources */,
 				4FAEEAE529221B8F00978534 /* Frameworks */,
 				4FAEEAE629221B8F00978534 /* Resources */,
@@ -258,6 +331,7 @@
 			files = (
 				4FAEEAD829221B8F00978534 /* LaunchScreen.storyboard in Resources */,
 				4FAEEAD529221B8F00978534 /* Assets.xcassets in Resources */,
+				4F9863C52933C19E00CED59F /* MATRIKS.pdf in Resources */,
 				4FAEEAD329221B8A00978534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,17 +352,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		668E11FDD4592802C51AB790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mutriks-MutriksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97970E805612B4921671607A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mutriks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F454129D545B0ABF9E4D17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MutriksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FAEEAC429221B8A00978534 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE9B3D82928B8F1006D95CF /* SecondViewController.swift in Sources */,
+				4F9863C1293397B300CED59F /* AboutAppViewController.swift in Sources */,
+				4FE9B3D82928B8F1006D95CF /* OperationViewController.swift in Sources */,
 				4FAEEAD029221B8A00978534 /* ViewController.swift in Sources */,
+				4F9863BF293373E600CED59F /* InversResultViewController.swift in Sources */,
 				4FAEEACC29221B8A00978534 /* AppDelegate.swift in Sources */,
+				4F09E45A2931167C00D18638 /* InversViewController.swift in Sources */,
+				4F09E4582931166600D18638 /* DeterminanViewController.swift in Sources */,
 				4FAEEACE29221B8A00978534 /* SceneDelegate.swift in Sources */,
+				4F09E45E2931361500D18638 /* PickerField.swift in Sources */,
+				4F09E45C2931169300D18638 /* TransposeViewController.swift in Sources */,
+				4F9863BD293335C900CED59F /* DeterminanResultViewController.swift in Sources */,
+				4F9863C32933A6C800CED59F /* AboutMatriksViewController.swift in Sources */,
 				4FE9B3D62928B2C1006D95CF /* Extension.swift in Sources */,
 				4FE9B3D32928B0A2006D95CF /* HomeViewController.swift in Sources */,
+				4F256FC529322B9300CA9641 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,11 +614,14 @@
 		};
 		4FAEEAF329221B8F00978534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9B47BD2BC39F650BD35F71 /* Pods-Mutriks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85TX7YS764;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mutriks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -483,6 +638,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiiisixxx.Mutriks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -491,11 +647,14 @@
 		};
 		4FAEEAF429221B8F00978534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF31DB65F291E7052462F30A /* Pods-Mutriks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85TX7YS764;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mutriks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -512,6 +671,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiiisixxx.Mutriks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -520,6 +680,7 @@
 		};
 		4FAEEAF629221B8F00978534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5490E072B1DB0B01409DA3 /* Pods-MutriksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +700,7 @@
 		};
 		4FAEEAF729221B8F00978534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E7D46C58EFCD717910296A /* Pods-MutriksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -558,6 +720,7 @@
 		};
 		4FAEEAF929221B8F00978534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB50D9517301CC7B64579DD /* Pods-Mutriks-MutriksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +738,7 @@
 		};
 		4FAEEAFA29221B8F00978534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2244B769B71E038EA10CFE59 /* Pods-Mutriks-MutriksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

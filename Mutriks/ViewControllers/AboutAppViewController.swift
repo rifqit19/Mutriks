@@ -1,18 +1,19 @@
 //
-//  SecondViewController.swift
+//  AboutAppViewController.swift
 //  Mutriks
 //
-//  Created by rifqitriginandri on 19/11/22.
+//  Created by rifqitriginandri on 27/11/22.
 //
 
+import Foundation
 import UIKit
 
-class SecondViewController: UIViewController {
+class AboutAppViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 }
-

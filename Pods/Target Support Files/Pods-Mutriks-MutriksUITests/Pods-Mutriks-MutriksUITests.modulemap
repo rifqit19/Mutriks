@@ -1,0 +1,6 @@
+framework module Pods_Mutriks_MutriksUITests {
+  umbrella header "Pods-Mutriks-MutriksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
