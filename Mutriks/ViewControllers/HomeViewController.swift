@@ -20,7 +20,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         setupView()
     }
@@ -47,7 +46,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
         let transposeVC = storyBoard.instantiateViewController(withIdentifier: "TransposeViewController") as! TransposeViewController
-//        self.present(secondVC, animated:true, completion:nil)
         
         self.navigationItem.title = "Transpose"
 
@@ -58,7 +56,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
         let determinanVC = storyBoard.instantiateViewController(withIdentifier: "DeterminanViewController") as! DeterminanViewController
-//        self.present(secondVC, animated:true, completion:nil)
         
         self.navigationItem.title = "Determinan"
 
@@ -70,7 +67,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
         let inversVC = storyBoard.instantiateViewController(withIdentifier: "InversViewController") as! InversViewController
-//        self.present(secondVC, animated:true, completion:nil)
         
         self.navigationItem.title = "Invers"
 
@@ -82,7 +78,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
         let inversVC = storyBoard.instantiateViewController(withIdentifier: "AboutAppViewController") as! AboutAppViewController
-//        self.present(secondVC, animated:true, completion:nil)
         
         self.navigationItem.title = "Tentang Aplikasi"
 
@@ -96,7 +91,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
 
         let inversVC = storyBoard.instantiateViewController(withIdentifier: "AboutMatriksViewController") as! AboutMatriksViewController
-//        self.present(secondVC, animated:true, completion:nil)
         
         self.navigationItem.title = "Tentang Matriks"
 
