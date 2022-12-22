@@ -71,6 +71,10 @@ class TransposeViewController: UIViewController {
         let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UISegmentedControl.appearance().setTitleTextAttributes(titleTextAttributes, for: .selected)
         
+        //keyboard dismiss
+        self.hideKeyboardWhenTappedAround()
+
+        
     }
 
     

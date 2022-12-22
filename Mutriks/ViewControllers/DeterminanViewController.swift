@@ -71,6 +71,10 @@ class DeterminanViewController: UIViewController {
         let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UISegmentedControl.appearance().setTitleTextAttributes(titleTextAttributes, for: .selected)
         
+        //keyboard dismiss
+        self.hideKeyboardWhenTappedAround()
+
+        
     }
 
     func setupMatriksField(){
@@ -139,11 +143,6 @@ class DeterminanViewController: UIViewController {
             resultVC.determinan_result = String(((mat1_1_1 * mat1_2_2 * mat1_3_3)+(mat1_1_2 * mat1_2_3 * mat1_3_1)+(mat1_1_3 * mat1_2_1 * mat1_3_2)) - ((mat1_1_3 * mat1_2_2 * mat1_3_1)+(mat1_1_1 * mat1_2_3 * mat1_3_2)+(mat1_1_2 * mat1_2_1 * mat1_3_3)))
             
         }
-//        else if(index_segment == 2){
-//
-//            resultVC.determinan_result = String(((mat1_1_1*mat1_2_2*mat1_3_3*mat1_4_4)+(mat1_1_3*mat1_2_4*mat1_3_1*mat1_4_2)+(mat1_1_2*mat1_2_1*mat1_3_4*mat1_4_3)+(mat1_1_4*mat1_2_3*mat1_3_2*mat1_4_1)) - ((mat1_1_2*mat1_3_3*mat1_3_4*mat1_4_1)+(mat1_1_4*mat1_2_1*mat1_3_2*mat1_4_3)+(mat1_1_1*mat1_2_4*mat1_3_3*mat1_4_2)+(mat1_1_3*mat1_2_2*mat1_3_1*mat1_4_4)))
-//
-//        }
         
         
         self.present(resultVC, animated:true, completion:nil)

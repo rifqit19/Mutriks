@@ -105,6 +105,7 @@ class OperationViewController: UIViewController {
     var mat2_4_3:Double = 0
     var mat2_4_4:Double = 0
     
+    @IBOutlet weak var tx_note: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -126,11 +127,18 @@ class OperationViewController: UIViewController {
         let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UISegmentedControl.appearance().setTitleTextAttributes(titleTextAttributes, for: .selected)
         
+        //keyboard dismiss
+        self.hideKeyboardWhenTappedAround()
+        
         //PickerField
         picker.setPicker(data: (operatorSign)) { [weak self] (text, index) in
             self?.index_operator = index
             print("operator: " , self!.index_operator)
-
+            if index == 2 {
+                self?.tx_note.isHidden = false
+            }else{
+                self?.tx_note.isHidden = true
+            }
         }
         
         picker.selectPicker(index: 0)
@@ -139,6 +147,7 @@ class OperationViewController: UIViewController {
 
         
     }
+    
     
     @IBAction func tabSegment(_ sender: UISegmentedControl) {
         index_segment = sender.selectedSegmentIndex
